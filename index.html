@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form | FCC Responsive Design Project</title>
+    <meta name="description" content="This is a Survey Form page made by Minggas was part of FCC course.">
+    <meta property="og:title" content="Survey Form | FCC Responsive Design Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://minggas.github.io/fcc-surveyform">
+    <meta property="og:image" content="https://drive.google.com/uc?export=view&id=1F7cmJ0O7BZbbe2G3A7HoONrG_ADQRZtu">
+    <meta property="og:image:width" content="590">
+    <meta property="og:image:height" content="440">
+    <meta property="og:site_name" content="Survey Form">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="This is a Survey Form page made by Minggas was part of FCC course.">
+    <meta name="twitter:title" content="Survey Form | FCC Responsive Design Project">
+    <meta name="twitter:site" content="@minggasweb">
+    <meta name="twitter:creator" content="@minggasweb">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <form action="" id="survey-form">
+        <p id="description">Let us know more about you so we can improve our content</p>
+        <div class="row">
+            <label for="name" id="name-label">Name *</label>
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+        </div>
+        <div class="row">
+            <label for="email" id="email-label">Email *</label>
+            <input type="email" name="email" id="email" placeholder="user@example.com" required>
+        </div>
+        <div class="row">
+            <label for="number" id="number-label">Age *</label>
+            <input type="number" name="age" id="number" min="4" max="110" placeholder="25" required>
+        </div>
+        <div class="row">
+            <label for="dropdown">Gender *</label>
+            <select name="gender" id="dropdown" required>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="row">
+            <fieldset>
+                <legend>What social media do you use?</legend>
+                <ul>
+                    <li>
+                        <label for="social1">Facebook</label>
+                        <input type="checkbox" name="social" value="Facebook" id="social1">
+                    </li>
+                    <li>
+                        <label for="social2">Twitter</label>
+                        <input type="checkbox" name="social" value="Twitter" id="social2">
+                    </li>
+                    <li>
+                        <label for="social3">Instagram</label>
+                        <input type="checkbox" name="social" value="Instagram" id="social3">
+                    </li>
+                    <li>
+                        <label for="social4">Linkedin</label>
+                        <input type="checkbox" name="social" value="Linkedin" id="social4">
+                    </li>
+                    <li>
+                        <label for="social5">Google+</label>
+                        <input type="checkbox" name="social" value="Google+" id="social5">
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="row">
+            <fieldset>
+                <ul>
+                    <legend>What Coding Languages do you use?</legend>
+                    <li>
+                        <label for="language1">Java</label>
+                        <input type="checkbox" name="languages" value="Java" id="language1">
+                    </li>
+                    <li>
+                        <label for="language2">C / C++</label>
+                        <input type="checkbox" name="languages" value="C / C++" id="language2">
+                    </li>
+                    <li>
+                        <label for="language3">Javascript</label>
+                        <input type="checkbox" name="languages" value="Javascript" id="language3">
+                    </li>
+                    <li>
+                        <label for="language4">Python</label>
+                        <input type="checkbox" name="languages" value="Python" id="language4">
+                    </li>
+                    <li>
+                        <label for="language5">Go</label>
+                        <input type="checkbox" name="languages" value="Go" id="language5">
+                    </li>
+                    <li>
+                        <label for="language6">C#</label>
+                        <input type="checkbox" name="languages" value="C#" id="language6">
+                    </li>
+                    <li>
+                        <label for="language7">PHP</label>
+                        <input type="checkbox" name="languages" value="PHP" id="language7">
+                    </li>
+                    <li>
+                        <label for="language8">Ruby</label>
+                        <input type="checkbox" name="languages" value="Ruby" id="language8">
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="row">
+            <fieldset>
+                <legend>What's your favorite desktop OS?</legend>
+                <ul>
+                    <li>
+                        <label for="os1">Windows</label>
+                        <input type="radio" name="os" value="Windows" id="os1">
+                    </li>
+                    <li>
+                        <label for="os2">Linux</label>
+                        <input type="radio" name="os" value="Linux" id="os2">
+                    </li>
+                    <li>
+                        <label for="os3">MacOS</label>
+                        <input type="radio" name="os" value="MacOs" id="os3">
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="row">
+            <fieldset>
+                <ul>
+                    <legend>What's your favorite browser?</legend>
+                    <li>
+                        <label for="browser1">Chrome</label>
+                        <input type="radio" name="browser" value="Chrome" id="browser1">
+                    </li>
+                    <li>
+                        <label for="browser2">Firefox</label>
+                        <input type="radio" name="browser" value="Firefox" id="browser2">
+                    </li>
+                    <li>
+                        <label for="browser3">Safari</label>
+                        <input type="radio" name="browser" value="Safari" id="browser3">
+                    </li>
+                    <li>
+                        <label for="browser4">Opera</label>
+                        <input type="radio" name="browser" value="Opera" id="Browser4">
+                    </li>
+                    <li>
+                        <label for="browser5">Edge</label>
+                        <input type="radio" name="browser" value="Edge" id="browser5">
+                    </li>
+                    <li>
+                        <label for="browser6">IE</label>
+                        <input type="radio" name="browser" value="IE" id="browser6">
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="row text-msg">
+            <label for="message">Any suggestions or comments</label>
+            <textarea name="" id="message" placeholder="Enter your message"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" id="submit">
+
+    </form>
+
+</body>
+
+</html>
