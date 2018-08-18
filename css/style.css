@@ -163,6 +163,19 @@ textarea {
 #submit:active {
   transform: translateY(10px);
 }
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #911c08;
+}
+.author a {
+  text-decoration: none;
+  color: #086391;
+  line-height: 26px;
+}
+
 @media screen and (max-width: 500px) {
   .row {
     flex-direction: column;
